@@ -1,13 +1,15 @@
 import React from 'react'
+import Main from '../Main'
+import { Container, Wrapper } from './LayoutElements'
 
 function Layout() {
     return (
         <>
         <Container>
             <Wrapper>
-                <Menubar/>
+                {/* <Menubar/> */}
                 <Main/>
-                <SideBar/>
+                {/* <SideBar/> */}
 
                 
             </Wrapper>
