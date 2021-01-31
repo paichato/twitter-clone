@@ -20,7 +20,7 @@ html, body, #root{
 *, button, input{
     border:0;
     background:none;
-    font-family: --apple-system;
+    font-family: ---apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 html{
     background:var(--primary);
