@@ -1,5 +1,6 @@
 import React from 'react'
 import { Avatar, Banner, Container, LocationIcon, CakeIcon, ProfileData, Followage } from './ProfilePageElements'
+import EditButton from '../Button/index'
 
 function ProfilePage() {
     return (
@@ -8,7 +9,7 @@ function ProfilePage() {
                 <Avatar/>
             </Banner>
             <ProfileData>
-                {/* <EditButton outlined>Edit Profile</EditButton> */}
+                <EditButton outlined="true" >Edit Profile</EditButton>
                 <h1>Marlon D Jesus</h1>
                 <h2>@marlondjesus</h2>
                 <p>Front End Developer </p>

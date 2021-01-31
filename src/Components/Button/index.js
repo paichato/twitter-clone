@@ -1,10 +1,13 @@
-import styled from 'styled-components';
+import React from 'react'
+import { Button2 } from './ButtonElements'
 
-export default styled.button`
-background: ${ props=>(props.outlined?'transparent':'var(--twitter')};
-color: ${props=>props.outlined?'var(--twitter':'var(--white)'};
-border:${props=>props.outlined?'1px solid var(--twitter)':'none'};
+function EditButton() {
+    return (
+        <>
+            <Button2/>   
+        </>
+    )
+}
 
+export default EditButton
 
-
-`
